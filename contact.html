@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Contact</title>
     <link rel="stylesheet" href="homestyle.css">
-	<script src="https://kit.fontawesome.com/c7674412c5.js" crossorigin="anonymous"></script>
   </head>
   <body>
   	  <header class="navbar">
@@ -18,12 +17,43 @@
   	  </header>
 	  
 	  <div class="contactmain">
-		  <div class="contacttitle">How to get in touch...
+		  <div class="contacttitle">How to get in touch
 		  </div>
 		</div>
 		<div class="contactdetails">
-			<i class="fas fa-phone"></i>
+			<div class="contacticons">
+			<div class="mail"><a href="mailto:nickclifford@gmail.com">
+				<img alt="Email" src="mail.png" width="75" height="75">
+				</a>
+			</div>
+			<div class="phone"><a href="tel:07970740492">
+				<img alt="Phone" src="phone.png" width="75" height="75">
+				</a>
+			</div>
+			<div class="twitter"><a href="https://twitter.com/cliffdeford">
+				<img alt="Twitter" src="twitter.png" width="75" height="75">
+				</a>
+			</div>
 		</div>
+			<div class="contactform">
+			<h3>Or send me a message</h3>
+
+			<div class="formcontainer">
+			    <label for="fname">First Name</label>
+			    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+			    <label for="lname">Last Name</label>
+			    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			    <label for="subject">Message</label>
+			    <textarea id="subject" name="subject" placeholder="How can I help you?" style="height:150px"></textarea>
+
+			    <input type="submit" value="Submit">
+			  </form>
+			</div>
+
+		</div>
+	</div>
   </body>
  	 	<div class="footer">
     		<p>© Nick Clifford 2021</p>

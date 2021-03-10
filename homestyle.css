@@ -11,6 +11,7 @@ body {
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	background-color: black;
+	color: #ffffff;
 }
 
 /* Navbar */
@@ -20,7 +21,6 @@ body {
 	max-width: 100%;
 	max-height: auto;
 	color: white;
-	background-color: black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -31,7 +31,6 @@ body {
 }
 
 #NC {
-	background-color: black;
 	color: white;
 	text-transform: uppercase;
 	padding: 15px;
@@ -88,8 +87,8 @@ a:active{
 
 .homequote {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 70%;
     transform: translate(-50%, -50%);
 	color: white;
 	font-weight:lighter;
@@ -128,13 +127,20 @@ a:active{
 	margin-right: auto;
 	width: 90%;
 }
+	
+#teaching {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+}
 
 /* Portfolio */
 
 .portmain {
 	margin: 1% 5%;
 	width: 90%;
-	}git
+}
 
 .porttitle {
 	display: block;
@@ -201,19 +207,70 @@ a:active{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
-	margin-left: auto;
-	margin-right: auto;	
 	text-align: center;
 	margin: 1% 5%;
 }
+	
+.contacticons {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	justify-content: space-evenly;
+	margin-top: 5%;
+		}
+
+.contactform h3{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5%;
+	letter-spacing: 3px;
+		}
+		
+.formcontainer {
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	padding: 20px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 600px;
+	
+	}
+		
+		
+input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  margin-top: 6px;
+		  margin-bottom: 16px;
+		  resize: vertical;
+		}
+
+input[type=submit] {
+		  background-color: #ffffff;
+		  color: black;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+input[type=submit]:hover {
+		  background-color: #b3b3b3;
+		}
 
 /* Footer */
 
-.footer {
-	display: flex;
-	justify-content: center;
+.footer p{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
    	width: 100%;
-   	background-color: black;
    	color: white;
 }
 

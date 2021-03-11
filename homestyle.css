@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
 * {
 	box-sizing: border-box;
 }
@@ -77,11 +79,12 @@ a:visited{
     left: 70%;
     transform: translate(-50%, -50%);
 	font-weight: 100;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* About Me */
 
-.aboutmeparent1 {
+.aboutmecontainer {
 	width: auto;
 	display: flex;
 	flex-direction: row;
@@ -89,16 +92,16 @@ a:visited{
 	margin: 1% 5%;
 }
 
-.aboutmechild1 {
+.aboutmecomponent1 {
 	min-width: 45%;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	margin: 3%;
 	padding: 3%;
 }
 
-.aboutmechild2 {
+.aboutmecomponent2 {
 	min-width: 45%;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	margin: 3%;
 	padding: 3%;
 }
@@ -151,6 +154,8 @@ a:visited{
 	width: 100%;
 	height: 100%;
 	padding: 10%;
+	border:#000000 solid 2px;
+	border-radius: 5px;
 }
 
 .portproject2 {
@@ -159,6 +164,8 @@ a:visited{
 	width: 100%;
 	height: 100%;
 	padding: 10%;
+	border: #000000 solid 2px;
+	border-radius: 5px;
 }
 
 .portproject3 {
@@ -167,6 +174,8 @@ a:visited{
 	width: 100%;
 	height: 100%;
 	padding: 10%;
+	border: #000000 solid 2px;
+	border-radius: 5px;
 }
 
 .background-tint {
@@ -174,6 +183,17 @@ a:visited{
   background-blend-mode: multiply;
 }
 
+.portproject1:hover {
+	border: #b3b3b3 solid 2px;
+}
+
+.portproject2:hover {
+	border: #b3b3b3 solid 2px;
+}
+
+.portproject3:hover {
+	border: #b3b3b3 solid 2px;
+}
 /* Contact */
 
 .contactmain {
@@ -198,14 +218,26 @@ a:visited{
 	justify-content: space-evenly;
 	margin-top: 5%;
 		}
-		
-.mail, .phone, .twitter {
-	height: 50px;
-	width: 50px;
+
+.contacticons img {
+	height: 75px;
+	width: 75px;
+}
+
+#twitter, #mail, #phone {
+	padding: 5px;
+	border: #000000 solid 2px;
+	border-radius: 4px;
+}
+
+#twitter:hover, #mail:hover, #phone:hover {
+	padding: 5px;
+	border: #b3b3b3 solid 2px;
+	border-radius: 4px;
 }
 		
 .contactform {
-	margin-top: 10%;
+	margin-top: 6%;
 }
 
 .contactform h3{

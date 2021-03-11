@@ -51,6 +51,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
 
 a:link, a:hover, a:focus, a:active{
